@@ -73,6 +73,7 @@ body {
 /* Section styling + dividers */
 section:not(#footer-new) {
   min-height: 100dvh;
+  scroll-margin-top: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,10 +120,11 @@ section:not(#footer-new) {
   }
 
   /* Sections smaller */
-  section {
+  section:not(#footer-new) {
     font-size: 1.8rem;
     padding: 2rem 1rem;
     min-height: 100dvh;
+    scroll-margin-top: 80px;
   }
 }
 
